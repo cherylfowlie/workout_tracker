@@ -1,6 +1,6 @@
 var express = require("express");
 var router = express.Router();
-const Workout = require("../models/index.js");
+const Workout = require("../models");
 
 
 module.exports = function (app) {
